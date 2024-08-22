@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="encoder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="encoder_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1829553333fs"></ZoomStartTime>
+      <ZoomEndTime time="1842443334fs"></ZoomEndTime>
+      <Cursor1Time time="1840295000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="59" />
+   <wvobject type="array" fp_name="/encoder_tb/input_time_series_V_data_0_V_TDATA">
+      <obj_property name="ElementShortName">input_time_series_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_time_series_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/uut/zeropad1d_cl_array_ap_int_16_1u_array_ap_int_16_1u_config18_U0/res_V_data_V_din">
+      <obj_property name="ElementShortName">res_V_data_V_din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">res_V_data_V_din[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_0_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_1_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_1_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_1_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_2_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_2_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_2_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_3_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_3_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_3_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_4_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_4_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_4_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_5_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_5_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_5_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_6_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_6_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_6_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_7_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_7_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_7_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_8_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_8_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_8_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_9_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_9_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_9_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_10_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_10_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_10_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_11_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_11_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_11_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_12_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_12_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_12_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_13_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_13_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_13_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_14_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_14_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_14_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/encoder_tb/layer17_out_V_data_15_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_15_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_15_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/ap_clk">
+      <obj_property name="ElementShortName">ap_clk</obj_property>
+      <obj_property name="ObjectShortName">ap_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/ap_rst_n">
+      <obj_property name="ElementShortName">ap_rst_n</obj_property>
+      <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/input_time_series_V_data_0_V_TVALID">
+      <obj_property name="ElementShortName">input_time_series_V_data_0_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">input_time_series_V_data_0_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/input_time_series_V_data_0_V_TREADY">
+      <obj_property name="ElementShortName">input_time_series_V_data_0_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">input_time_series_V_data_0_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/ap_start">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_0_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_0_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_0_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_0_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_0_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_0_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_1_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_1_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_1_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_1_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_1_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_1_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_2_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_2_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_2_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_2_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_2_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_2_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_3_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_3_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_3_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_3_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_3_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_3_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_4_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_4_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_4_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_4_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_4_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_4_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_5_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_5_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_5_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_5_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_5_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_5_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_6_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_6_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_6_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_6_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_6_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_6_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_7_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_7_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_7_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_7_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_7_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_7_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_8_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_8_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_8_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_8_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_8_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_8_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_9_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_9_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_9_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_9_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_9_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_9_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_10_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_10_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_10_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_10_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_10_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_10_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_11_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_11_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_11_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_11_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_11_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_11_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_12_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_12_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_12_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_12_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_12_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_12_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_13_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_13_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_13_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_13_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_13_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_13_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_14_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_14_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_14_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_14_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_14_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_14_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_15_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_15_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_15_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/layer17_out_V_data_15_V_TREADY">
+      <obj_property name="ElementShortName">layer17_out_V_data_15_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_15_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/ap_done">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/ap_ready">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/encoder_tb/ap_idle">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/encoder_tb/CLK_period">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>

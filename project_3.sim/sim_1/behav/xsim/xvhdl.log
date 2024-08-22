@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/berkb/project_3/project_3.srcs/sources_1/new/onfi_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'nand_flash_controller_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/berkb/project_3/project_3.srcs/sim_1/new/onfi_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_nand_flash_controller_wrapper'

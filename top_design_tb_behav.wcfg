@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_design_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_design_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="363501fs"></ZoomEndTime>
+      <Cursor1Time time="60000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="69" />
+   <wvobject type="array" fp_name="/top_design_tb/input_time_series_V_data_0_V_TDATA">
+      <obj_property name="ElementShortName">input_time_series_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_time_series_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_0_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_0_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_1_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_1_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_1_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_2_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_2_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_2_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_3_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_3_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_3_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_4_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_4_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_4_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_5_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_5_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_5_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_6_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_6_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_6_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_7_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_7_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_7_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_8_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_8_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_8_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_9_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_9_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_9_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_10_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_10_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_10_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_11_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_11_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_11_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_12_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_12_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_12_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_13_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_13_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_13_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_14_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_14_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_14_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/layer17_out_V_data_15_V_TDATA">
+      <obj_property name="ElementShortName">layer17_out_V_data_15_V_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_15_V_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ap_clk">
+      <obj_property name="ElementShortName">ap_clk</obj_property>
+      <obj_property name="ObjectShortName">ap_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ap_rst_n">
+      <obj_property name="ElementShortName">ap_rst_n</obj_property>
+      <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/input_time_series_V_data_0_V_TVALID">
+      <obj_property name="ElementShortName">input_time_series_V_data_0_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">input_time_series_V_data_0_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/input_time_series_V_data_0_V_TREADY">
+      <obj_property name="ElementShortName">input_time_series_V_data_0_V_TREADY</obj_property>
+      <obj_property name="ObjectShortName">input_time_series_V_data_0_V_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ap_start">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_0_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_0_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_0_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_1_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_1_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_1_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_2_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_2_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_2_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_3_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_3_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_3_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_4_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_4_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_4_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_5_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_5_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_5_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_6_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_6_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_6_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_7_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_7_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_7_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_8_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_8_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_8_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_9_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_9_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_9_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_10_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_10_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_10_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_11_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_11_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_11_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_12_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_12_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_12_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_13_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_13_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_13_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_14_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_14_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_14_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/layer17_out_V_data_15_V_TVALID">
+      <obj_property name="ElementShortName">layer17_out_V_data_15_V_TVALID</obj_property>
+      <obj_property name="ObjectShortName">layer17_out_V_data_15_V_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ap_done">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ap_ready">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ap_idle">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/CE_N">
+      <obj_property name="ElementShortName">CE_N</obj_property>
+      <obj_property name="ObjectShortName">CE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/WE_N">
+      <obj_property name="ElementShortName">WE_N</obj_property>
+      <obj_property name="ObjectShortName">WE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/RE_N">
+      <obj_property name="ElementShortName">RE_N</obj_property>
+      <obj_property name="ObjectShortName">RE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/CLE">
+      <obj_property name="ElementShortName">CLE</obj_property>
+      <obj_property name="ObjectShortName">CLE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/ALE">
+      <obj_property name="ElementShortName">ALE</obj_property>
+      <obj_property name="ObjectShortName">ALE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/IO_I">
+      <obj_property name="ElementShortName">IO_I[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_I[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/IO_O">
+      <obj_property name="ElementShortName">IO_O[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_O[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/IO_OE">
+      <obj_property name="ElementShortName">IO_OE</obj_property>
+      <obj_property name="ObjectShortName">IO_OE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/WP_N">
+      <obj_property name="ElementShortName">WP_N</obj_property>
+      <obj_property name="ObjectShortName">WP_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/RB_N">
+      <obj_property name="ElementShortName">RB_N</obj_property>
+      <obj_property name="ObjectShortName">RB_N</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/cpu_if_command">
+      <obj_property name="ElementShortName">cpu_if_command[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_command[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/cpu_if_command_valid">
+      <obj_property name="ElementShortName">cpu_if_command_valid</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_command_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/cpu_if_address">
+      <obj_property name="ElementShortName">cpu_if_address[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_address[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/cpu_if_address_bytes">
+      <obj_property name="ElementShortName">cpu_if_address_bytes[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_address_bytes[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/cpu_if_data_bytes">
+      <obj_property name="ElementShortName">cpu_if_data_bytes[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_data_bytes[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/cpu_if_data_rw">
+      <obj_property name="ElementShortName">cpu_if_data_rw</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_data_rw</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/cpu_if_data_wp">
+      <obj_property name="ElementShortName">cpu_if_data_wp</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_data_wp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/cpu_if_access_request">
+      <obj_property name="ElementShortName">cpu_if_access_request</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_access_request</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/cpu_if_access_complete">
+      <obj_property name="ElementShortName">cpu_if_access_complete</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_access_complete</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/cpu_if_access_ready">
+      <obj_property name="ElementShortName">cpu_if_access_ready</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_access_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/buf_rd_write">
+      <obj_property name="ElementShortName">buf_rd_write</obj_property>
+      <obj_property name="ObjectShortName">buf_rd_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/buf_rd_address">
+      <obj_property name="ElementShortName">buf_rd_address[39:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_rd_address[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/buf_rd_write_data">
+      <obj_property name="ElementShortName">buf_rd_write_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_rd_write_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/buf_wr_address">
+      <obj_property name="ElementShortName">buf_wr_address[39:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr_address[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_design_tb/buf_wr_read_data">
+      <obj_property name="ElementShortName">buf_wr_read_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr_read_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_design_tb/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top_design_tb/CLK_period">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>

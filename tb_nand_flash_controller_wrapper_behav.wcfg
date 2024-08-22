@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_nand_flash_controller_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_nand_flash_controller_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="49500fs"></ZoomStartTime>
+      <ZoomEndTime time="772501fs"></ZoomEndTime>
+      <Cursor1Time time="170000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/CE_N">
+      <obj_property name="ElementShortName">CE_N</obj_property>
+      <obj_property name="ObjectShortName">CE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/WE_N">
+      <obj_property name="ElementShortName">WE_N</obj_property>
+      <obj_property name="ObjectShortName">WE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/RE_N">
+      <obj_property name="ElementShortName">RE_N</obj_property>
+      <obj_property name="ObjectShortName">RE_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/CLE">
+      <obj_property name="ElementShortName">CLE</obj_property>
+      <obj_property name="ObjectShortName">CLE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/ALE">
+      <obj_property name="ElementShortName">ALE</obj_property>
+      <obj_property name="ObjectShortName">ALE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/IO_I">
+      <obj_property name="ElementShortName">IO_I[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_I[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/IO_O">
+      <obj_property name="ElementShortName">IO_O[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_O[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/IO_OE">
+      <obj_property name="ElementShortName">IO_OE</obj_property>
+      <obj_property name="ObjectShortName">IO_OE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/WP_N">
+      <obj_property name="ElementShortName">WP_N</obj_property>
+      <obj_property name="ObjectShortName">WP_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/RB_N">
+      <obj_property name="ElementShortName">RB_N</obj_property>
+      <obj_property name="ObjectShortName">RB_N</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_command">
+      <obj_property name="ElementShortName">cpu_if_command[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_command[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_command_valid">
+      <obj_property name="ElementShortName">cpu_if_command_valid</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_command_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_address">
+      <obj_property name="ElementShortName">cpu_if_address[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_address[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_address_bytes">
+      <obj_property name="ElementShortName">cpu_if_address_bytes[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_address_bytes[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_data_bytes">
+      <obj_property name="ElementShortName">cpu_if_data_bytes[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_data_bytes[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_data_rw">
+      <obj_property name="ElementShortName">cpu_if_data_rw</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_data_rw</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_data_wp">
+      <obj_property name="ElementShortName">cpu_if_data_wp</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_data_wp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_access_request">
+      <obj_property name="ElementShortName">cpu_if_access_request</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_access_request</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_access_complete">
+      <obj_property name="ElementShortName">cpu_if_access_complete</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_access_complete</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/cpu_if_access_ready">
+      <obj_property name="ElementShortName">cpu_if_access_ready</obj_property>
+      <obj_property name="ObjectShortName">cpu_if_access_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/buf_rd_write">
+      <obj_property name="ElementShortName">buf_rd_write</obj_property>
+      <obj_property name="ObjectShortName">buf_rd_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/buf_rd_address">
+      <obj_property name="ElementShortName">buf_rd_address[39:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_rd_address[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/buf_rd_write_data">
+      <obj_property name="ElementShortName">buf_rd_write_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_rd_write_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/buf_wr_address">
+      <obj_property name="ElementShortName">buf_wr_address[39:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr_address[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_nand_flash_controller_wrapper/buf_wr_read_data">
+      <obj_property name="ElementShortName">buf_wr_read_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_wr_read_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_nand_flash_controller_wrapper/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+</wave_config>

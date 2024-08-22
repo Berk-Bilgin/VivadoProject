@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_nand_flash_controller_wrapper_behav/xsimk -simmode gui -wdb tb_nand_flash_controller_wrapper_behav.wdb -simrunnum 0 -socket 46923
+Design successfully loaded
+Design Loading Memory Usage: 33280 KB (Peak: 33748 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 115276 KB (Peak: 172548 KB)
+Simulation CPU Usage: 2190 ms
