@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Aug 23 11:43:59 2024
+# Process ID: 142444
+# Current directory: /home/berkb/project_3/project_3.runs/synth_1
+# Command line: vivado -log top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_wrapper.tcl
+# Log file: /home/berkb/project_3/project_3.runs/synth_1/top_wrapper.vds
+# Journal file: /home/berkb/project_3/project_3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_wrapper.tcl -notrace

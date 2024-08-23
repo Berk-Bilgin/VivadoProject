@@ -3,7 +3,7 @@
 May 27 2020
 19:59:15
 /home/berkb/project_3/project_3.sim/sim_3/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-/home/berkb/project_3/project_3.srcs/sim_3/new/top_design_tb.vhd,1724340550,vhdl,,,,top_design_tb,,,,,,,,
+/home/berkb/project_3/project_3.srcs/sim_3/new/top_design_tb.vhd,1724357366,vhdl,,,,top_design_tb,,,,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl/Encoder.vhd,1723642095,vhdl,,,,encoder,,,,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl/Encoder_mul_mul_16s_7s_23_1_1.vhd,1723642137,vhdl,,,,encoder_mul_mul_16s_7s_23_1_1;encoder_mul_mul_16s_7s_23_1_1_dsp48_1,,,,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl/Encoder_mul_mul_16s_8s_24_1_1.vhd,1723642137,vhdl,,,,encoder_mul_mul_16s_8s_24_1_1;encoder_mul_mul_16s_8s_24_1_1_dsp48_0,,,,,,,,
@@ -45,6 +45,6 @@ May 27 2020
 /home/berkb/project_3/project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl/zeropad1d_cl_array_array_ap_fixed_24_16_0_0_0_4u_config21_s.vhd,1723641875,vhdl,,,,zeropad1d_cl_array_array_ap_fixed_24_16_0_0_0_4u_config21_s,,,,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl/zeropad1d_cl_array_array_ap_fixed_24_16_0_0_0_8u_config19_s.vhd,1723641801,vhdl,,,,zeropad1d_cl_array_array_ap_fixed_24_16_0_0_0_8u_config19_s,,,,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl/zeropad1d_cl_array_array_ap_fixed_24_16_0_0_0_8u_config20_s.vhd,1723641848,vhdl,,,,zeropad1d_cl_array_array_ap_fixed_24_16_0_0_0_8u_config20_s,,,,,,,,
-/home/berkb/project_3/project_3.srcs/sources_1/imports/new/top_wrapper.vhd,1724334143,vhdl,,,,top_wrapper,,,,,,,,
+/home/berkb/project_3/project_3.srcs/sources_1/imports/new/top_wrapper.vhd,1724356356,vhdl,,,,top_wrapper,,,,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/new/controlOnfi.sv,1724169684,systemVerilog,,,,nand_flash_controller,,,../../../../project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/syn/systemc;../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware;../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/ap_types;../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/ap_types/etc;../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/ap_types/utils;../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/nnet_utils;../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/weights,,,,,
 /home/berkb/project_3/project_3.srcs/sources_1/new/onfi_wrapper.vhd,1724169711,vhdl,,,,nand_flash_controller_wrapper,,,,,,,,

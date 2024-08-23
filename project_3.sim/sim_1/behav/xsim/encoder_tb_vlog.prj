@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/syn/systemc" --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware" --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/nnet_utils" --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/weights" --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/ap_types" --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/ap_types/utils" --include "../../../../project_3.srcs/sources_1/imports/hls4ml_prj/firmware/ap_types/etc" \
+"../../../../project_3.srcs/sources_1/new/controlOnfi.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

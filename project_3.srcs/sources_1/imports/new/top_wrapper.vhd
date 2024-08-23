@@ -18,65 +18,17 @@ generic (
   port (
     --Encoder ports
     input_time_series_V_data_0_V_TDATA : IN STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_0_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_1_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_2_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_3_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_4_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_5_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_6_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_7_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_8_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_9_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_10_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_11_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_12_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_13_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_14_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
-    layer17_out_V_data_15_V_TDATA : OUT STD_LOGIC_VECTOR (15 downto 0);
     ap_clk : IN STD_LOGIC;
     ap_rst_n : IN STD_LOGIC;
     input_time_series_V_data_0_V_TVALID : IN STD_LOGIC;
     input_time_series_V_data_0_V_TREADY : OUT STD_LOGIC;
     ap_start : IN STD_LOGIC;
-    layer17_out_V_data_0_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_0_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_1_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_1_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_2_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_2_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_3_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_3_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_4_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_4_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_5_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_5_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_6_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_6_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_7_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_7_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_8_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_8_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_9_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_9_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_10_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_10_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_11_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_11_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_12_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_12_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_13_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_13_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_14_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_14_V_TREADY : IN STD_LOGIC;
-    layer17_out_V_data_15_V_TVALID : OUT STD_LOGIC;
-    layer17_out_V_data_15_V_TREADY : IN STD_LOGIC;
     ap_done : OUT STD_LOGIC;
     ap_ready : OUT STD_LOGIC;
     ap_idle : OUT STD_LOGIC;
+    encoded_data_valid : out std_logic;
     --ONFI ports
-    onfi_clk                : in  std_logic;
-    reset                   : in  std_logic;
+    reset_onfi              : in  std_logic;
     CE_N                    : out std_logic;
     WE_N                    : out std_logic;
     RE_N                    : out std_logic;
@@ -100,12 +52,12 @@ generic (
     buf_rd_write            : out std_logic;
     buf_rd_address          : out std_logic_vector(ADDR_WIDTH-1 downto 0);
     buf_rd_write_data       : out std_logic_vector(DATA_WIDTH-1 downto 0);
-    buf_wr_address          : out std_logic_vector(ADDR_WIDTH-1 downto 0);
-    buf_wr_read_data        : in  std_logic_vector(DATA_WIDTH-1 downto 0);   
+    buf_wr_address          : out std_logic_vector(ADDR_WIDTH-1 downto 0); 
     busy                    : out std_logic
   );
 END top_wrapper;
 ARCHITECTURE behavior OF top_wrapper IS
+
 COMPONENT Encoder
 PORT(
     input_time_series_V_data_0_V_TDATA : IN STD_LOGIC_VECTOR (15 downto 0);
@@ -211,8 +163,63 @@ component nand_flash_controller_wrapper
     busy                    : out std_logic
   );
 end component;
+--encoder signals
 
+signal layer17_out_V_data_0_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_1_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_2_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_3_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_4_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_5_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_6_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_7_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_8_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_9_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_10_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_11_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_12_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_13_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_14_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_15_V_TDATA : STD_LOGIC_VECTOR (15 downto 0);
+signal layer17_out_V_data_0_V_TVALID : STD_LOGIC;
+signal layer17_out_V_data_0_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_1_V_TVALID : STD_LOGIC;
+signal layer17_out_V_data_1_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_2_V_TVALID : STD_LOGIC;
+signal layer17_out_V_data_2_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_3_V_TVALID : STD_LOGIC;
+signal layer17_out_V_data_3_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_4_V_TVALID : STD_LOGIC;
+signal layer17_out_V_data_4_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_5_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_5_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_6_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_6_V_TREADY : STD_LOGIC := '1';
+signal layer17_out_V_data_7_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_7_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_8_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_8_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_9_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_9_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_10_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_10_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_11_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_11_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_12_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_12_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_13_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_13_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_14_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_14_V_TREADY : STD_LOGIC:= '1';
+signal layer17_out_V_data_15_V_TVALID :  STD_LOGIC;
+signal layer17_out_V_data_15_V_TREADY : STD_LOGIC:= '1';
+signal encoder_out : std_logic_vector(255 downto 0);
+-- ONFI signals
+--signal clk                  : std_logic := '0';
+
+signal ready_for_encoded : std_logic;
 BEGIN
+encoded_data_valid <= layer17_out_V_data_0_V_TVALID;
 u_encoder: Encoder PORT MAP (
     input_time_series_V_data_0_V_TDATA => input_time_series_V_data_0_V_TDATA,
     layer17_out_V_data_0_V_TDATA => layer17_out_V_data_0_V_TDATA ,
@@ -271,13 +278,12 @@ u_encoder: Encoder PORT MAP (
     ap_done => ap_done,
     ap_ready => ap_ready,
     ap_idle => ap_idle); 
-   -- Process to read data from the file
-
+    
      -- Instantiate the NAND flash controller wrapper
   u_nand_flash_controller_wrapper : nand_flash_controller_wrapper
     port map (
-      clk                     => onfi_clk,
-      reset                   => reset,
+      clk                     => ap_clk,
+      reset                   => reset_onfi,
       CE_N                    => CE_N,
       WE_N                    => WE_N,
       RE_N                    => RE_N,
@@ -302,7 +308,13 @@ u_encoder: Encoder PORT MAP (
       buf_rd_address          => buf_rd_address,
       buf_rd_write_data       => buf_rd_write_data,
       buf_wr_address          => buf_wr_address,
-      buf_wr_read_data        => buf_wr_read_data,
+      buf_wr_read_data        => encoder_out,
       busy                    => busy
     );
+encoder_out <= layer17_out_V_data_0_V_TDATA & layer17_out_V_data_1_V_TDATA
+        & layer17_out_V_data_2_V_TDATA & layer17_out_V_data_3_V_TDATA & layer17_out_V_data_4_V_TDATA
+        & layer17_out_V_data_5_V_TDATA & layer17_out_V_data_6_V_TDATA & layer17_out_V_data_7_V_TDATA
+        & layer17_out_V_data_8_V_TDATA & layer17_out_V_data_9_V_TDATA & layer17_out_V_data_10_V_TDATA
+        & layer17_out_V_data_11_V_TDATA & layer17_out_V_data_12_V_TDATA & layer17_out_V_data_13_V_TDATA
+        & layer17_out_V_data_14_V_TDATA & layer17_out_V_data_15_V_TDATA;
 end architecture behavior;

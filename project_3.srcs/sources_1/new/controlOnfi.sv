@@ -96,7 +96,7 @@ module nand_flash_controller #(
   always_ff @(posedge clk) begin
     case (state)
       COMMAND1 : IO_O <= cpu_if_command[7:0];
-      COMMAND2 : IO_O <= cpu_if_command[15:8];
+      //COMMAND2 : IO_O <= cpu_if_command[15:8];
       ADDRESS  : IO_O <= cpu_if_address[8*count[2:0] +: 8];
       DATA_WR  : IO_O <= buf_wr_read_data[8*count[2:0] +: 8];
     endcase
