@@ -43,7 +43,7 @@ module nand_flash_controller #(
   localparam COUNT_WIDTH = $clog2(BYTE_PER_PAGE);
   logic [COUNT_WIDTH-1:0] count;
   
-  typedef enum {IDLE,COMMAND1,COMMAND2,ADDRESS,DATA_WR,DATA_RD,DONE} state_type;
+  typedef enum {IDLE,COMMAND1,ADDRESS,DATA_WR,DATA_RD,DONE} state_type;
   state_type state;
   
   assign busy = !(state == IDLE);
@@ -61,7 +61,7 @@ module nand_flash_controller #(
     if (reset) begin
       CLE <= 1'b0;
     end else begin
-      CLE <= state == COMMAND1 || state == COMMAND2;
+      CLE <= state == COMMAND1;
     end
   end
   
@@ -76,7 +76,7 @@ module nand_flash_controller #(
   always_ff @(posedge clk) begin
     if (reset) begin
       WE_N <= 1'b1;
-    end else if (RB_N && WE_N && (state == ADDRESS || state == COMMAND1 || state == COMMAND2 || state == DATA_WR)) begin
+    end else if (RB_N && WE_N && (state == ADDRESS || state == COMMAND1 || state == DATA_WR)) begin
       WE_N <= 1'b0;
     end else begin
       WE_N <= 1'b1;
@@ -96,9 +96,8 @@ module nand_flash_controller #(
   always_ff @(posedge clk) begin
     case (state)
       COMMAND1 : IO_O <= cpu_if_command[7:0];
-      //COMMAND2 : IO_O <= cpu_if_command[15:8];
       ADDRESS  : IO_O <= cpu_if_address[8*count[2:0] +: 8];
-      DATA_WR  : IO_O <= buf_wr_read_data[8*count[2:0] +: 8];
+      DATA_WR  : IO_O <= buf_wr_read_data[8*count +: 8]; // Use the full count value here  
     endcase
   end
   
@@ -110,14 +109,6 @@ module nand_flash_controller #(
   end
   
   always_ff @(posedge clk) begin
-    if (state == ADDRESS || state == COMMAND1 || state == COMMAND2 || state == DATA_WR || state == DONE) begin
-      IO_OE <= 1'b1;
-    end else begin
-      IO_OE <= 1'b0;
-    end
-  end
-  
-  always_ff @(posedge clk) begin
     if (state == IDLE) begin
       buf_wr_address <= {ADDR_WIDTH{1'b0}};
     end else if (RB_N && WE_N && state == DATA_WR) begin
@@ -125,6 +116,13 @@ module nand_flash_controller #(
     end
   end
   
+  always_ff @(posedge clk) begin
+    if (state == ADDRESS || state == COMMAND1 || state == DATA_WR || state == DONE) begin
+      IO_OE <= 1'b1;
+    end else begin
+      IO_OE <= 1'b0;
+    end
+  end
   assign buf_rd_write = state == DATA_RD && RE_N && RB_N && count[1:0] == 2'b11;
   assign buf_rd_address = {'h0,count[COUNT_WIDTH-1:2]};
   assign buf_rd_write_data = {IO_I,IO_i[DATA_WIDTH-1:8]};
@@ -153,18 +151,8 @@ module nand_flash_controller #(
             state <= DONE;
           end
         end
-        COMMAND2 : begin
-          if (~WE_N && cpu_if_data_bytes != 0) begin
-            state <= cpu_if_data_rw ? DATA_RD : DATA_WR;
-          end else if (~WE_N) begin
-            state <= DONE;
-          end
-        end
         ADDRESS : begin
-          if (~WE_N && count[ADDR_WIDTH/8-1:0] >= cpu_if_address_bytes && cpu_if_command_valid) begin
-            state <= COMMAND2;
-            count <= 0;
-          end else if (~WE_N && count[ADDR_WIDTH/8-1:0] >= cpu_if_address_bytes && cpu_if_data_bytes != 0) begin
+          if (~WE_N && count[ADDR_WIDTH/8-1:0] >= cpu_if_address_bytes && cpu_if_data_bytes != 0) begin
             state <= cpu_if_data_rw ? DATA_RD : DATA_WR;
             count <= 0;
           end else if (~WE_N && count[ADDR_WIDTH/8-1:0] >= cpu_if_address_bytes) begin
