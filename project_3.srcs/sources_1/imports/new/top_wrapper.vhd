@@ -217,7 +217,6 @@ signal encoder_out : std_logic_vector(255 downto 0);
 -- ONFI signals
 --signal clk                  : std_logic := '0';
 
-signal ready_for_encoded : std_logic;
 BEGIN
 encoded_data_valid <= layer17_out_V_data_0_V_TVALID;
 u_encoder: Encoder PORT MAP (
