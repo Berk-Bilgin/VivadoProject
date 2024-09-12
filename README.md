@@ -1,1 +1,1 @@
-The source files used for the top level design in the project can be found in the project_3.srcs/sources_1 directory. The project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl has the VHDL implementation of the Encoder model.
+The source files used for the top level design in the project can be found in the project_3.srcs/sources_1 directory. The project_3.srcs/sources_1/imports/hls4ml_prj/Encoder_prj/solution1/impl/vhdl directory has the VHDL implementation of the Encoder model.
